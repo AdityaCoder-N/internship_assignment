@@ -1,0 +1,30 @@
+.header{
+    height: 70px;
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 0 4%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-size:x-large;
+    font-weight: 700;
+}
+
+.user-profile{
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+    padding: 2%;
+    width: 150px;
+    gap: 1%;
+}
+
+.user-img{
+    height: 50px;
+    width: 50px;
+}

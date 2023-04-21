@@ -1,0 +1,21 @@
+.navbar{
+    display: flex;
+    padding: 0 4%;
+    gap: 3%;
+    height: 70px;
+    background-color: #15294b;
+
+    color: white;
+    
+}
+
+.selected-program-box{
+    display: flex;
+    gap: 10%;
+    align-items: center;
+}
+
+.selected-program{
+    display: flex;
+    align-items: center;
+}
