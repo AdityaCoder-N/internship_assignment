@@ -52,7 +52,7 @@ const Navbar = () => {
       <div className={dropdown?'navbar-dropdown visible':'navbar-dropdown'}>
         <div style={{fontSize:"large"}}> Select Program</div>
 
-        <div className='program-list'>
+        <div className='program-list'> 
         {
           userPrograms.map((program)=>{
             return (
