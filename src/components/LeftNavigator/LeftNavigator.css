@@ -1,0 +1,41 @@
+.LeftNavigator-container{
+    height: 100vh;
+    width: 5%;
+    position: absolute;
+  
+    background-color: #15294b;
+    color: white;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1%;
+}
+
+.option-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: small;
+    width: 100%;
+    padding: 20% 0;
+    gap: 4%;
+    border-radius: 8px 0 0 8px;
+    transition: all 0.2s ease-in-out;
+}
+.option-container:hover{
+    background-color: white;
+    color: #15294b;
+}
+
+.option-icon{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+.option-name{
+    display: flex;
+    justify-content: center;
+    
+}
