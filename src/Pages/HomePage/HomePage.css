@@ -1,0 +1,9 @@
+.homepage-heading{
+    margin: 2% 0;
+    font-weight: 500;
+}
+
+.homepage-module-container{
+    display: flex;
+    gap: 3%;
+}

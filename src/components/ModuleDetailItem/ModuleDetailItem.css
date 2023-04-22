@@ -1,0 +1,101 @@
+.ModuleDetailItem{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #a1b6e8;
+    border-radius: 5px;
+    background-color: #fff;
+    /* box-shadow: 0 2px 3px #ccc; */
+    box-shadow: 0px 0px 10px 0px rgba(115, 157, 202, 0.616);
+}
+
+.ModuleDetailItemLeft{
+    width: 60%;
+    border-right: 1.5px solid rgba(115, 157, 202, 0.616);
+    padding: 40px;
+}
+
+.DataWranglerImg{
+    padding: 15px 0;
+    width: 105px;
+}
+.ModuleDetailItemLeftheading{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.testInstructor{
+    display: flex;
+    align-items: center;
+    gap:0.5rem;
+    color:  #57a5ee;
+    font-weight: 500;
+}
+
+.owlImg{
+    padding: 5px 0;
+    width: 35px;
+}
+
+
+.progressContainerItem{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 10px 0;
+    justify-content: left;
+    /* width: 70%; */
+}
+
+.progressHeading{
+    font-size: small;
+    font-weight: 400;
+}
+.progressNumber{
+    color: #57a5ee;
+    font-size: small;
+}
+
+.progressDiv{
+    width: 300px;
+    height:10px;
+    background-color: #9fc0fe;
+    border-radius: 5px;
+}
+
+.ModuleDetailItemRight{
+   width: 40%;
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   gap: 1.5rem;
+}
+
+.ModuleDetailItemRightCourseHeading{
+    /* width: 55%; */
+    color: #57a5ee;;
+    font-weight: 500;
+}
+
+.liveSession{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+}
+.LiveSessionBtn{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border:none;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+.LiveSessionBtn:hover{
+    background-color: rgb(179, 179, 179);
+}
+
+.dailyFeedback{
+    display: flex;
+    justify-content: space-between;
+}
