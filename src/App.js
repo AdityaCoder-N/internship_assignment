@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
+
 import {
   createBrowserRouter,
   RouterProvider,
@@ -12,6 +12,7 @@ import Modules from "./Pages/Modules/Modules";
 import Lesson from "./Pages/Lesson/Lesson";
 import Assignment from "./Pages/Assignment/Assignment";
 import Quiz from "./Pages/Quiz/Quiz";
+import Instructors from "./Pages/Instructors/Instructors";
 
 
 const router = createBrowserRouter([
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
             element:<Assignment/>
           }
         ]
+      },
+      {
+        path: "/instructors",
+        element: <Instructors/>,
       },
     ],
   },

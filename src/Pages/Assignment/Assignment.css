@@ -1,0 +1,92 @@
+#assignment-container{
+    padding : 4% 8%;
+    height: 100%;
+    background-color: rgb(203, 211, 231);
+}
+.assignment-heading-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.assignment-heading{
+    font-weight: 500;
+}
+
+.user-score{
+    display: flex;
+    gap: 20%;
+}
+.user-score-value{
+    font-size: large;
+}
+
+.assignment-date-top{
+    color: grey;
+    font-weight: 500;
+    margin: 2% 0;
+    
+}
+
+#assignment-container h3{
+    font-weight: 500;
+    margin-top: 5%;
+}
+
+.assignment-info-card{
+    margin: 2% 0;
+
+    display: flex;
+    background-color: white;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px rgb(115, 154, 195);
+    border: 1px solid rgb(173, 205, 217);
+    border-radius: 8px;
+}
+
+.assignment-left-details{
+    width: 50%;
+    height: 80%;
+    padding: 3% 5%;
+    border-right: 1px solid grey;
+    
+    display: flex;
+    justify-content: space-around;
+}
+.assignment-right-details{
+    width: 50%;
+    height: 80%;
+    padding: 3% 5%;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.assignment-card-textbox{
+    text-align: center;
+    font-size: large;
+    color: rgb(99, 99, 99);
+}
+
+.assignment-detail{
+    font-size: larger;
+    font-weight: 500;
+    color: black;
+}
+
+.assignment-start{
+    width: 50%;
+}
+.assignment-due{
+    width: 50%;
+}
+
+.assignment-icon{
+    height: 20px;
+    width: 20px;
+}
+.assignment-date{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    margin: 8% 0;
+}

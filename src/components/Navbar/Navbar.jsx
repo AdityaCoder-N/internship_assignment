@@ -46,7 +46,7 @@ const Navbar = () => {
     <div className='navbar'>
       <div className="selected-program-box" onClick={()=>setDropdown(!dropdown)}>
         <span>{selectedProgram.id}</span>
-        <i class="fa-solid fa-caret-down"></i>
+        <i className="fa-solid fa-caret-down"></i>
       </div>
 
       <div className={dropdown?'navbar-dropdown visible':'navbar-dropdown'}>

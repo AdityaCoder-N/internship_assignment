@@ -3,17 +3,17 @@ export const LeftNavigatorOptions = [
 
     {
         name:'Home',
-        icon:<i class="fa-solid fa-house"></i>,
+        icon:<i className="fa-solid fa-house"></i>,
         path:'/'
     },
     {
         name:'Modules',
-        icon:<i class="fa-solid fa-book"></i>,
-        path:'/modules'
+        icon:<i className="fa-solid fa-book"></i>,
+        path:'/modules/lesson'
     },
     {
         name:'Instructors',
-        icon:<i class="fa-solid fa-user-tie"></i>,
+        icon:<i className="fa-solid fa-user-tie"></i>,
         path:'/instructors'
     },
     

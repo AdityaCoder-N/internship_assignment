@@ -18,7 +18,7 @@ const Lesson = () => {
         {
           LessonOptions.map((option,index)=>{
             return (
-              <div className={(selected==index)?'lesson-option active-l-option':'lesson-option'} onClick={()=>setSelected(index)}>
+              <div className={(selected===index)?'lesson-option active-l-option':'lesson-option'} onClick={()=>setSelected(index)} key={index}>
                 <img src={option.icon} alt="" className='lesson-icons'/>
                 <span>
                   {option.name}
@@ -29,7 +29,7 @@ const Lesson = () => {
         }
         </div>
 
-        {(selected==0) && <div className='option-content'>
+        {(selected===0) && <div className='option-content'>
             <h2 className='sub-heading'>Session Plan</h2>
 
             <div className='sub-text'>Live session is about to start. Please stay tuned .</div>
@@ -50,17 +50,17 @@ const Lesson = () => {
         </div>}
 
         {
-          (selected==1) && <div className="option-content">
+          (selected===1) && <div className="option-content">
             Pre-Watch Videos
           </div>
         }
         {
-          (selected==2) && <div className="option-content">
+          (selected===2) && <div className="option-content">
             Session Recordings
           </div>
         }
         {
-          (selected==3) && <div className="option-content">
+          (selected===3) && <div className="option-content">
             Refrences
           </div>
         }
