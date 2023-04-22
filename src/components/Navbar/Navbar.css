@@ -1,5 +1,6 @@
 .navbar{
     display: flex;
+    position: relative;
     padding: 0 5%;
     gap: 3%;
     height: 70px;
@@ -13,9 +14,40 @@
     display: flex;
     gap: 10%;
     align-items: center;
+
+    cursor: pointer;
 }
 
 .selected-program{
     display: flex;
     align-items: center;
+}
+
+.navbar-dropdown{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #15294b;
+    width: 100vw;
+    padding: 0 5% 2% 5%;
+   
+    opacity: 0;
+
+}
+.visible{
+    opacity: 1;
+}
+.program-list{
+    margin-top: 1%;
+}
+
+.program-item{
+    margin-right: 0.5%;
+    padding: 1% 2%;
+
+    border-radius: 8px;
+    cursor: pointer;
+}
+.program-item:hover{
+    background-color: #273e66;
 }
