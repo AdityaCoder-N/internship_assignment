@@ -42,3 +42,7 @@
     justify-content: center;
     
 }
+.selected{
+    background-color: white;
+    color: #15294b;
+}

@@ -20,12 +20,12 @@ const Navbar = () => {
     // Fetching User's Programs
     dispatch(fetchPrograms(1));
 
-    
     setUserPrograms(programs.programs)
     console.log(programs)
     console.log("response : ",programs.programs)
   }
 
+  console.log(programs)
   const [dropdown,setDropdown] = useState(false)
 
   const selectProgram = (id,name)=>{

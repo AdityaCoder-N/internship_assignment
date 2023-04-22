@@ -8,6 +8,10 @@ import {
 import HomePage from './Pages/HomePage/HomePage';
 
 import Root from "./Root";
+import Modules from "./Pages/Modules/Modules";
+import Lesson from "./Pages/Lesson/Lesson";
+import Assignment from "./Pages/Assignment/Assignment";
+import Quiz from "./Pages/Quiz/Quiz";
 
 
 const router = createBrowserRouter([
@@ -17,8 +21,26 @@ const router = createBrowserRouter([
     
     children: [
       {
-        path: "/home",
+        path: "/",
         element: <HomePage/>,
+      },
+      {
+        path: "/modules",
+        element: <Modules/>,
+        children:[
+          {
+            path:'/modules/lesson',
+            element: <Lesson/>
+          },
+          {
+            path:'/modules/quiz',
+            element:<Quiz/>
+          },
+          {
+            path:'/modules/assignment',
+            element:<Assignment/>
+          }
+        ]
       },
     ],
   },

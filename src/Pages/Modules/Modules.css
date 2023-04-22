@@ -1,0 +1,36 @@
+#modules-container{
+    display: flex;
+
+}
+
+.left-module-navigator{
+    background-color: #b9ccef;
+    width: 16%;
+    height: 110vh;
+    padding: 0.2% 0;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+.module-option{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    gap: 5%;
+    width: 100%;
+    padding: 4% 8%;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+.module-option:hover{
+    background-color: #9dacc8;
+
+}
+.selectedModule{
+    background-color: #9dacc8;
+}
+
+.right-module-container{
+    width: 84%;
+}

@@ -4,7 +4,7 @@ export const LeftNavigatorOptions = [
     {
         name:'Home',
         icon:<i class="fa-solid fa-house"></i>,
-        path:'/home'
+        path:'/'
     },
     {
         name:'Modules',

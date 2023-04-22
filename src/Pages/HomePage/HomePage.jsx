@@ -6,7 +6,7 @@ import ModuleDetailItem from '../../components/ModuleDetailItem/ModuleItemDetail
 import ProgressOverview from '../../components/ProgressOverview/ProgressOverview'
 const HomePage = () => {
   return (
-    <div>
+    <div id='homepage-container'>
       <h1 className='homepage-heading'>Upcoming Certifications</h1>
       <UpcomingCertification/>
 

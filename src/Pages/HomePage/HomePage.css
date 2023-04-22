@@ -1,3 +1,8 @@
+#homepage-container{
+    padding: 2.5% 5%;
+    width: 100%;
+}
+
 .homepage-heading{
     margin: 2% 0;
     font-weight: 500;
