@@ -5,10 +5,8 @@ import { fetchPrograms } from '../../Features/Programs/ProgramSlice'
 
 import './Navbar.css'
 
-
+ 
 const Navbar = () => {
-
-  const [userPrograms,setUserPrograms] = useState([])
 
   const [selectedProgram,setSelectedProgram] = useState({id:'DS031221',name:'Data Scientist Program'})
 
@@ -20,12 +18,10 @@ const Navbar = () => {
     // Fetching User's Programs
     dispatch(fetchPrograms(1));
 
-    setUserPrograms(programs.programs)
-    console.log(programs)
-    console.log("response : ",programs.programs)
+    console.log("Fetched" , programs)
+    
   }
 
-  console.log(programs)
   const [dropdown,setDropdown] = useState(false)
 
   const selectProgram = (id,name)=>{
@@ -54,7 +50,7 @@ const Navbar = () => {
 
         <div className='program-list'> 
         {
-          userPrograms.map((program)=>{
+          programs.map((program)=>{
             return (
               <span className='program-item' onClick={()=>selectProgram(program.programId,program.programName)}>
                 {program.programId}
